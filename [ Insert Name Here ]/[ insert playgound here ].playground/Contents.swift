@@ -10,7 +10,7 @@ circle.center = containerView.center
 
 circle.layer.cornerRadius = 25.0
 
-let startingColor = UIColor(red: (0.0/255.0), green: (0.0/255.0), blue: (255.0/255.0), alpha: 1.0)
+let startingColor = UIColor(red: (0.0/255.0), green: (0.0/255.0), blue: (0.0/255.0), alpha: 1.0)
 circle.backgroundColor = startingColor
 containerView.addSubview(circle);
 
@@ -23,7 +23,7 @@ rectangle.backgroundColor = UIColor.black
 
 containerView.addSubview(rectangle)
 
-UIView.animate ( withDuration: 2.0, animations: { () -> Void in let endingColor = UIColor(red: (61/255), green: (255.0/255.0), blue: (24.0/255.0), alpha: 1.0)
+UIView.animate ( withDuration: 2.0, animations: { () -> Void in let endingColor = UIColor(red: (255/255), green: (255.0/255.0), blue: (255.0/255.0), alpha: 1.0)
 circle.backgroundColor = endingColor
 
     let scaleTransform = CGAffineTransform(scaleX: 5.0, y:5.0)
@@ -31,6 +31,19 @@ circle.backgroundColor = endingColor
 circle.transform = scaleTransform
 
     let rotationTransform = CGAffineTransform(rotationAngle: 3.14)
+    
 
 rectangle.transform = rotationTransform
+})
+UIView.animate ( withDuration: 2.0, animations: { () -> Void in let endingColor = UIColor(red: (255/255), green: (255.0/255.0), blue: (255.0/255.0), alpha: 1.0)
+    circle.backgroundColor = endingColor
+    
+    let scaleTransform = CGAffineTransform(scaleX: 5.0, y:5.0)
+    
+    circle.transform = scaleTransform
+    
+    let rotationTransform = CGAffineTransform(rotationAngle: 3.14)
+    
+    
+    rectangle.transform = rotationTransform
 })

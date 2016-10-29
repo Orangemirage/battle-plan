@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A029C6431DC4212300F65974 /* butoons.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = butoons.playground; path = ../../butoons.playground; sourceTree = "<group>"; };
 		A073E9471D9F3827003C12D1 /* [ Insert Name Here ].app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "[ Insert Name Here ].app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A073E94A1D9F3827003C12D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A073E94C1D9F3827003C12D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +83,7 @@
 				A073E95E1D9F3827003C12D1 /* [ Insert Name Here ]Tests */,
 				A073E9691D9F3827003C12D1 /* [ Insert Name Here ]UITests */,
 				A073E9481D9F3827003C12D1 /* Products */,
+				A029C6431DC4212300F65974 /* butoons.playground */,
 			);
 			sourceTree = "<group>";
 		};
@@ -507,6 +509,7 @@
 				A073E9711D9F3827003C12D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A073E9721D9F3827003C12D1 /* Build configuration list for PBXNativeTarget "[ Insert Name Here ]Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +518,7 @@
 				A073E9741D9F3827003C12D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A073E9751D9F3827003C12D1 /* Build configuration list for PBXNativeTarget "[ Insert Name Here ]UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +527,7 @@
 				A073E9771D9F3827003C12D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
